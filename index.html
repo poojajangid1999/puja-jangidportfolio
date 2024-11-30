@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Pooja - I'm User Interface Designer & Developer.</title>
+  <meta name="title" content="Julia - I'm User Interface Designer & Developer.">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-dark.svg" width="64" height="24" alt="Julia home">
+        </a>
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="#!">Home</a>
+          </li>
+          <li>
+            <a href="#!">About</a>
+          </li>
+          <li>
+            <a href="#!">Projects</a>
+          </li>
+          <li>
+            <a href="#!">Skills</a>
+          </li>
+          <li>
+            <a href="#!">Portfolio</a>
+          </li>
+         
+          <li>
+            <a href="#!">Contact</a>
+          </li>
+        </ul>
+      </nav>
+     
+    </div>
+  </section>
+
+
+  <main>
+    <article>
+      <!-- #HERO -->
+      <section class="section hero" aria-label="home">
+        <div class="container">
+          <figure class="hero-banner">
+            <div class="my-image"></div>
+            <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="250+ Projects Done" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s">
+          </figure>
+
+          <div class="hero-content">
+            <div class="d-flex align-items-center intro-div">
+              <h1 class="main-title" data-reveal="top" data-reveal-delay="0.5s">
+                Pooja jangid
+              </h1>
+              <img src="./assets/images/waving-hand.png" alt="hii" class="hand-img">
+            </div>
+            <h3 class="sub-title">Web Designer</h3>
+
+            <p class="description" data-reveal="top" data-reveal-delay="0.75s">
+              "Creative Web Designer Specializing in User-Centered Design" "Skilled in HTML, CSS, JavaScript, and
+              Figma." How does this sound? 😊 Let me know if you'd like further tweaks!
+            </p>
+
+            <div class="btn-wrapper ms-2" data-reveal="top" data-reveal-delay="1s">
+              <a href="#" class="btn btn-primary d-flex align-items-center">Say hello
+                <i class='bx bx-right-top-arrow-circle'></i>
+              </a>
+              <ul class="social-list">
+
+                <li>
+                  <a href="https://www.linkedin.com/in/pooja-jangid-2520bb226/" class="social-link">
+                    <i class="bx bxl-linkedin"></i>
+                  </a>
+                </li>
+        
+                <li>
+                  <a href="https://www.instagram.com/pooja10_19/" class="social-link">
+                    <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon>
+                  </a>
+                </li>
+        
+                <li>
+                  <a href="https://github.com/poojajangid1999" class="social-link">
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </li>
+        
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  #ABOUT -->
+      <section class="about" aria-label="about" id="about">
+        <div class="container">
+          <div class="wrapper">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-5 col-md-6 mb-5">
+              <img src="./assets/images/banner-img.jpg" alt="" class="about-img">
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="row mb-4">
+                <div class="col-lg-4 col-sm-4 col-md-4 mb-2">
+                  <div class="about__box bg-info"><i class="bx bx-award about__icon"></i>
+                    <h3 class="about__title">Experience</h3><span class="about__subtitile">1+ years</span>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-4 col-md-4 mb-2">
+                  <div class="about__box bg-light"><i class="bx bx-award about__icon"></i>
+                    <h3 class="about__title">Experience</h3><span class="about__subtitile">1+ years</span>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-4 col-md-4 mb-2">
+                  <div class="about__box bg-success"><i class="bx bx-award about__icon"></i>
+                    <h3 class="about__title">Experience</h3><span class="about__subtitile">1+ years</span>
+                  </div>
+                </div>
+              </div>
+
+              <p class="about-description mb-4">I'm a creative Web Designer with 1 year of experience crafting intuitive
+                and user-friendly designs. Skilled in HTML, CSS, JavaScript, Bootstrap, SCSS, and Tailwind CSS, I
+                specialize in building responsive, visually striking web experiences. From sleek landing pages to
+                complex dashboards, I blend creativity with functionality to captivate users and elevate brands.</p>
+
+              <a href="#" class="btn btn-primary d-flex align-items-center">Download CV
+                <!-- <img src="./assets/images/down-arrow.png" alt="hii" class="down-arrow"> -->
+                <i class='bx bxs-cloud-download'></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills -->
+      <section class="skills" aria-label="skills" id="skills">
+        <div class="container">
+          <div class="title-wrapper" data-reveal="top">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+          </div>
+
+          <div class="row pb-5">
+            <div class="col-xl-6 col-lg-6 col-md-6 mx-auto mb-4">
+              <div class="skills__content">
+                <h3 class="skills__title">Frontend developer</h3>
+
+                <div class="skills__box">
+                  <div class="skills__group">
+                    <div class="skills__data">
+                      <i class="bx bx-badge-check"></i>
+
+                      <div class="tech-name">
+                        <h3 class="skills__name">Html</h3>
+                        <span class="skills__level">Intermediate</span>
+                      </div>
+                    </div>
+
+                    <div class="skills__data">
+                      <i class="bx bx-badge-check"></i>
+                      <div class="tech-name">
+                        <h3 class="skills__name">CSS</h3>
+                        <span class="skills__level">Advanced</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills__group">
+                    <div class="skills__data">
+                      <i class="bx bx-badge-check"></i>
+                      <div class="tech-name">
+                        <h3 class="skills__name">Bootstrap</h3>
+                        <span class="skills__level">Intermediate</span>
+                      </div>
+                    </div>
+
+                    <div class="skills__data">
+                      <i class="bx bx-badge-check"></i>
+                      <div class="tech-name">
+                        <h3 class="skills__name">Tailwind</h3>
+                        <span class="skills__level">Advanced</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills__group">
+                    <div class="skills__data">
+                      <i class="bx bx-badge-check"></i>
+                      <div class="tech-name">
+                        <h3 class="skills__name">Scss</h3>
+                        <span class="skills__level">Intermediate</span>
+                      </div>
+                    </div>
+
+                    <div class="skills__data">
+                      <i class="bx bx-badge-check"></i>
+                      <div class="tech-name">
+                        <h3 class="skills__name">convertri</h3>
+                        <span class="skills__level">Intermediate</span>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="skills__group">
+                    <div class="skills__data">
+                      <i class="bx bx-badge-check"></i>
+                      <div class="tech-name">
+                        <h3 class="skills__name">Git</h3>
+                        <span class="skills__level">Intermediate</span>
+                      </div>
+                    </div>
+
+                    <div class="skills__data">
+                      <i class="bx bx-badge-check"></i>
+                      <div class="tech-name">
+                        <h3 class="skills__name">Github</h3>
+                        <span class="skills__level">Intermediate</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- #PROJECT   -->
+      <section class="project" aria-labelledby="project-label" id="project">
+        <div class="container">
+
+          <div class="title-wrapper mb-3" data-reveal="top">
+
+            <div class="text-center">
+              <h2 class="section__title" id="project-label">Latest Projects</h2>
+
+              <p class="section__subtitle">
+                Check out some of my latest projects
+              </p>
+            </div>
+
+          </div>
+
+      
+          <div class="project1 project-block mb-3" style="background-color: #f8f5fb; border-radius: 5px;">
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Web Design</p>
+
+                  <h3 class="h3 card-title">Snowlake Theme</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper. Fusce dapibus tellus cursus.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-1.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+              </div>
+            </div>
+          </div>
+
+          <div class="project2 project-block mb-3" style="background-color: #f1f5fd; border-radius: 5px;">
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6">
+                <figure class="card-banner mt-0 mb-5" data-reveal="left">
+                  <img src="./assets/images/project-2.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="card-content left-margin" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Mobile Design</p>
+
+                  <h3 class="h3 card-title">Budget App</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper. Fusce dapibus tellus cursus.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-6 col-md-6">
+              <div class="project3 project-block mb-3" style="background-color: #f5faf7; border-radius: 5px;">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="card-content" data-reveal="left">
+
+                      <p class=" card-tag" style="color: #7cb798">Web Design</p>
+
+                      <h3 class="h3 card-title">Missio Theme</h3>
+
+                      <p class="card-text">
+                        Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis.
+                        Scelerisque
+                        id ligula felis.
+                      </p>
+
+                      <a href="#" class="btn-text" style="color: #7cb798">
+                        <span class="span">See Project</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a>
+
+                    </div>
+                  </div>
+                  <div class="col-lg-12 mt-5">
+                    <figure class="card-banner" data-reveal="right">
+                      <img src="./assets/images/project-3.png" width="600" height="367" loading="lazy" alt="Web Design"
+                        class="w-100">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="project4 project-block mb-3" style="background-color: #fcf4f6; border-radius: 5px;">
+                <div class="row">
+
+
+                  <div class="col-lg-12">
+                    <div class="card-content" data-reveal="left">
+
+                      <p class=" card-tag" style="color: #d16b86">Mobile Design</p>
+
+                      <h3 class="h3 card-title">Storage App</h3>
+
+                      <p class="card-text">
+                        Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                        porta felis euismod semper.
+                      </p>
+
+                      <a href="#" class="btn-text" style="color: #d16b86">
+                        <span class="span">See Project</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-12 mt-5">
+                    <figure class="card-banner" data-reveal="right">
+                      <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy"
+                        alt="Mobile Design" class="w-100">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- qualification -->
+      <section class="qualification" aria-label="qualification" id="qualification">
+        <div class="container">
+          <div class="title-wrapper" data-reveal="top">
+            <h2 class="section__title"> Experience & Qualification</h2>
+            <span class="section__subtitle">My Personal Journey</span>
+          </div>
+        </div>
+        <div class="qualification__container container">
+          <div class="qualification__sections">
+            <div class="qualification__content qualification__content-active">
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">AlchoTech Solution</h3><span class="qualification__subtitle">Web
+                    Designer Expert</span>
+                  <div class="qualification__calender"><i class='bx bx-calendar'></i>jan(2024) - present</div>
+                </div>
+                <div><span class="qualification__rounder"></span><span class="qualification__line"></span></div>
+              </div>
+              <div class="qualification__data">
+                <div></div>
+                <div><span class="qualification__rounder"></span><span class="qualification__line"></span></div>
+                <div>
+                  <h3 class="qualification__title">W3 IT EXPERT</h3><span class="qualification__subtitle">Web
+                    Designer</span>
+                  <div class="qualification__calender"><i class="uil uil-calendar-alt"></i>Feb(2023) - July(2023)</div>
+                </div>
+              </div>
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Master of Computer Application (MCA)</h3><span
+                    class="qualification__subtitle">University of Kota (Rajasthan)</span>
+                  <div class="qualification__calender"><i class="uil uil-calendar-alt"></i>2021-2023</div>
+                </div>
+                <div><span class="qualification__rounder"></span><span class="qualification__line"></span></div>
+              </div>
+              <div class="qualification__data">
+                <div></div>
+                <div><span class="qualification__rounder"></span><span class="qualification__line"></span></div>
+                <div>
+                  <h3 class="qualification__title">Bachelor of Computer Application (BCA)</h3><span
+                    class="qualification__subtitle">Maa Bharti P.G. collage kota</span>
+                  <div class="qualification__calender"><i class="uil uil-calendar-alt"></i> 2018 - 2021</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio -->
+      <section class="work" aria-label="portfolio" id="portfolio">
+        <div class="container">
+          <div class="title-wrapper" data-reveal="top">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent works</span>
+          </div>
+          <div class="tab-container">
+            <div class="row align-items-center">
+              <div class="col-xl-8 col-lg-8 col-md-9 col-sm-11 mx-auto mb-4">
+                <ul class="nav-tabs">
+                  <li class="tab active" data-target="content1">Login / Dashboards </li>
+                  <li class="tab" data-target="content2">Websites</li>
+                  <li class="tab" data-target="content3">Salespages</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-lg-9 mx-auto">
+                <div class="tab-content">
+                  <div id="content1" class="content active">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/funnelX-login.png" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/funnelX- dashboard.png" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/portfolio1.jpg" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/portfolio1.jpg" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="content2" class="content">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/project-1.png" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/project-2.png" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/project-3.png" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/portfolio1.jpg" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="content3" class="content">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/project-4.png" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/project-1.png" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/project-2.png" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <div class="image-box">
+                          <img src="./assets/images/portfolio1.jpg" alt="portfolio1">
+                          <h3 class="work__title">Dummy Bank (dd-6342 rg-2222)</h3>
+                          <a href="https://dummybankd.netlify.app/" class="work__button" target="_blank"
+                            rel="external noreferrer">Demo <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact" aria-label="contact" id="contact">
+        <h2 class="section__title">Get in touch</h2><span class="section__subtitle">Contact Me</span>
+        <div class="container">
+          <div class="contact__container ">
+            <div class="row justify-content-around">
+              <div class="col-lg-4 col-md-4">
+                <div class="contact__content">
+                  <h3 class="contact__title">Talk to me</h3>
+                  <div class="contact__info">
+                    <div class="contact__card"><i class="bx bx-phone-call contact__card-icon"></i>
+                      <h3 class="contact__card-title">Call</h3><span class="contact__card-data"></span><a
+                        href="tel:7597899179" class="contact__button"> Talk to me <i
+                          class="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                    </div>
+                    <div class="contact__card"><i class="bx bx-mail-send contact__card-icon"></i>
+                      <h3 class="contact__card-title">Email</h3><span
+                        class="contact__card-data">jangidpuja1999@gmail.com</span><a
+                        href="mailto:jangidpuja1999@gmail.com" class="contact__button"> Write me <i
+                          class="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                    </div>
+                    <div class="contact__card"><i class="bx bxl-whatsapp contact__card-icon"></i>
+                      <h3 class="contact__card-title">Whatsapp</h3><span
+                        class="contact__card-data">+919680991358</span><a
+                        href="https://wa.me/9680991358?text=I'm%20interested%20in%20your%20work%20let's%20talk%20further"
+                        class="contact__button"> Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="contact__content">
+                  <h3 class="contact__title">Write me your project</h3>
+                  <form class="contact__form">
+                    <div class="contact__form-div"><label for="" class="contact__form-tag">Name</label><input
+                        type="text" name="name" class="contact__form-input" placeholder="Insert your name"></div>
+                    <div class="contact__form-div"><label for="" class="contact__form-tag">Mail</label><input
+                        type="email" name="email" class="contact__form-input" placeholder="Insert your email"></div>
+                    <div class="contact__form-div contact__form-area"><label for=""
+                        class="contact__form-tag">Project</label><textarea name="project" cols="30" rows="10"
+                        class="contact__form-input project-text-area" placeholder="Write me your project"></textarea>
+                    </div>
+                    <button class="button button--flex">Send Message
+                      <i class='bx bx-message-square-dots'></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2022 Pooja. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.linkedin.com/in/pooja-jangid-2520bb226/" class="social-link">
+            <i class="bx bxl-linkedin"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/pooja10_19/" class="social-link">
+            <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="logo instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/poojajangid1999" class="social-link">
+            <i class="bx bxl-github"></i>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+
+</html>

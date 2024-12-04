@@ -21,6 +21,11 @@ document.addEventListener('DOMContentLoaded', function () {
   navbarToggle.addEventListener('click', function () {
     navMenu.classList.toggle('open');
   });
+  
+  navMenu.addEventListener('click', function () {
+    navMenu.classList.toggle('open');
+    navbarToggle.classList.toggle('active');
+  })
 
   // Hamburger toggle
   navbarToggle.addEventListener('click', function () {
